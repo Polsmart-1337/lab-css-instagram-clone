@@ -4,7 +4,117 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+@media screen {
+  
+
+  Body {
+    margin:0px;   
+  }
+    
+  .bgTop {
+    block-size: 280px;
+    background: linear-gradient(to top, #446581, #5e89af);
+  }  
+
+  .phones {   
+    width: 20em;
+    position: absolute;
+    top: 90px;
+    left: 80px;      
+  }
+
+  .instagram {
+    width: 18em;
+    position: absolute;
+    top: 110px;
+    left: 450px;          
+  }
+
+  .home {
+    width: 2em;
+    position: absolute;
+    top: 130px;
+    left: 800px;    
+  }
+
+  h2 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 0.8em;
+    color: #e6e6e6;
+    margin:0px;
+    width: 200px;
+    position: absolute;
+    top: 137px;
+    left: 840px
+  }
+
+  .frame {
+    width:30em;
+    position: fixed;
+    top: 200px;
+    left: 450px
+  }
+
+  h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:1.2em; 
+    color: #06365f;
+    width: 200px;
+    position: absolute;
+    top: 240px;
+    left: 490px
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:0.9em;    
+    width: 400px;
+    position: absolute;
+    top: 320px;
+    left: 490px
+  }
+
+  p1 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:0.9em;    
+    width: 400px;
+    position: absolute;
+    top: 390px;
+    left: 490px;
+  }
+
+  p2 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:0.9em;    
+    width: 400px;
+    position: absolute;
+    top: 480px;
+    left: 490px;
+  }  
+  
+  .iphone {   
+    width: 9.5em;
+    position: absolute;
+    top: 550px;
+    left: 480px;    
+  }
+
+  .android {   
+    width: 8.8em;
+    position: absolute;
+    top: 550px;
+    left: 650px;    
+  }
+  
+
+  footer {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:0.7em; 
+    color: #1c5380;
+    position: fixed;
+    top: 660px;
+    left: 320px;    
+    word-spacing: 1rem
+  }
+  
 }
